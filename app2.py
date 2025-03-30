@@ -15,8 +15,8 @@ st_d = {0: "Down", 1: "Flat", 2: "Up"}
 def main():
     st.set_page_config(page_title="Heart Disease Predictor")
 
-    st.title("Heart Disease Prediction App ❤️")
-    st.image("https://www.cdc.gov/heartdisease/images/heart-disease-facts-2021.jpg", use_column_width=True)
+    st.title("Heart Disease Prediction App")
+   
 
     left, right = st.columns(2)
 
